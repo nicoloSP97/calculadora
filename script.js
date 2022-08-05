@@ -130,6 +130,8 @@ function agregarMultiplicacion(){
         operaciones.value = operaciones.value + btn_por.value ;
     };
 }
+// funcion de sumar (lista)
+// arreglar el error de que no se pueda seguir modificando el resultado (realizar)
 function agregarresultado(){
     return function (e) {
         var num=0;
