@@ -1,0 +1,41 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div{
+    background-color: bisque;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 18em;
+    width:30em;
+}
+
+.row td{
+    
+    border-color: aqua;
+}
+.input{
+    height:3.3em;
+    width: 30em;
+    border-radius: 1.5em;
+    background-color:forestgreen;
+    font-size: 14px;
+    color: aliceblue;
+    font-weight: bolder;
+
+}
+.row td button{
+    background-color:aqua;
+    border-radius: 1.5em;
+    width: 7.5em;
+    height: 3em;
+    font-size: 13px;
+    color:blue;
+    font-weight: bolder;   
+}
+.row td button:hover{
+    background-color: aquamarine;
+}
